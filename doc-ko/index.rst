@@ -55,30 +55,28 @@ Ceph 은 **object, block, file 스토리지를 하나의 통합된 환경으로 
 
 	</td></tr><tr><td>
 
-See `Ceph Object Store`_ for additional details.
+더 많은 정보는 `Ceph Object Store`_ 를 참고하세요.
 
 .. raw:: html
 
 	</td><td>
 
-See `Ceph Block Device`_ for additional details.
+더 많은 정보는 `Ceph Block Device`_ 를 참고하세요.
 
 .. raw:: html
 
 	</td><td>
 
-See `Ceph Filesystem`_ for additional details.
+더 많은 정보는 `Ceph Filesystem`_ 를 참고하세요.
 
 .. raw::	html
 
 	</td></tr></tbody></table>
 
-Ceph is highly reliable, easy to manage, and free. The power of Ceph
-can transform your company's IT infrastructure and your ability to manage vast
-amounts of data. To try Ceph, see our `Getting Started`_ guides. To learn more
-about Ceph, see our `Architecture`_ section.
-
-
+Ceph 은 높은 신뢰성을 가지고, 관리하기 쉬우며, 무료로 제공됩니다. Ceph 의 힘으로 당신의 회사의 
+IT 인프라스트럭쳐와 능력을 방대한 양의 데이터를 다루도록 바꿀 수 있습니다. 처음 시작해보려면, 
+`Getting Started`_ 가이드를 참고하세요. Ceph 에 대한 더 많은 정보를 원한다면, `Architecture`_ 
+섹션을 참고합니다.
 
 .. _Ceph Object Store: radosgw
 .. _Ceph Block Device: rbd
