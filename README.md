@@ -1,17 +1,15 @@
 # Ceph Korean Documentation
-> Korean translation of [ceph Documentation](http://docs.ceph.com/docs/luminous/#)
-
-Korea Ceph User Group - https://www.facebook.com/groups/620899444961207/
+> Korean translation of [ceph Documentation](http://docs.ceph.com/docs/luminous/#), With [Korea Ceph User Group - Facebook](https://www.facebook.com/groups/620899444961207)
 
 ## 소개
 Ceph Documentation 을 기존 레이아웃 그대로 사용하면서 번역하며 작업할 수 있도록 커스텀된 레포지토리입니다.
 
 현재 (19.01.08) Stable 최신 버전인 [v13.2.4](https://github.com/ceph/ceph/tree/v13.2.4) 기준으로 구성했으며, Stable Release 때마다 diff 를 추적하여 업데이트할 예정입니다.
 
-ceph/doc 디렉토리를 doc-ko 디렉토리로 대체하여 ceph 레포지토리에 가이드 하는 데로 빌드합니다. 다음 레포지토리 [drunkard/ceph-Chinese-doc](https://github.com/drunkard/ceph-Chinese-doc) 에서 영감을 받아 제작하였습니다.
+ceph/doc 디렉토리를 doc-ko 디렉토리로 대체하여 ceph 레포지토리에 가이드 하는 데로 빌드합니다. 다음 레포지토리 ([drunkard/ceph-Chinese-doc](https://github.com/drunkard/ceph-Chinese-doc)) 에서 영감을 받아 제작하였습니다.
 
 ## 문서 빌드 & 번역하기 
-기본적으로 Ceph 레포지토리의 [공식 가이드] (https://github.com/drunkard/ceph-Chinese-doc) 를 따릅니다. 
+기본적으로 Ceph 레포지토리의 [공식 가이드](https://github.com/ceph/ceph#building-the-documentation) 를 따릅니다. 
 
 1. 프로젝트를 클론받고, Submodule Ceph 을 업데이트 합니다.
 ```bash
