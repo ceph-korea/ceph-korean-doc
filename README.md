@@ -6,7 +6,7 @@
 ## 소개
 Ceph Documentation 을 기존 레이아웃 그대로 사용하면서 번역하며 작업할 수 있도록 커스텀된 레포지토리입니다.
 
-현재 (19.01.08) Stable 최신 버전인 [v13.2.4](https://github.com/ceph/ceph/tree/v13.2.4) 기준으로 구성했으며, Stable Release 때마다 diff 를 추적하여 업데이트할 예정입니다.
+[mimic](https://github.com/ceph/ceph/tree/mimic) 기준으로 구성했으며, Stable Release 때마다 diff 를 추적하여 업데이트할 예정입니다.
 
 ceph/doc 디렉토리를 doc-ko 디렉토리로 대체하여 ceph 레포지토리에 가이드 하는 데로 빌드합니다. 다음 레포지토리 ([drunkard/ceph-Chinese-doc](https://github.com/drunkard/ceph-Chinese-doc)) 에서 영감을 받아 제작하였습니다.
 
@@ -28,7 +28,9 @@ git clone https://github.com/{user}/ceph-korean-doc.git
 cd ceph-korean-doc
 git submodule update --init
 cd ceph
-git checkout v13.2.4
+git checkout mimic
+git pull
+cd ..
 ```
 
 3. 디펜던시를 설치합니다.
