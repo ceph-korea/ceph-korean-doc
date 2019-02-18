@@ -2,7 +2,7 @@
 > Korean translation of [ceph Documentation](http://docs.ceph.com/docs/luminous/#), With [Korea Ceph User Group - Facebook](https://www.facebook.com/groups/620899444961207)
 
 ![start!](https://user-images.githubusercontent.com/16697306/50839583-f30fb280-13a3-11e9-9e08-00fea29dba95.png)
-> [이곳](http://13.124.133.86/) 에서 임시로 서빙중인 문서를 열람하실 수 있습니
+> [이곳](http://13.124.133.86/) 에서 임시로 서빙중인 문서를 열람하실 수 있습니다. 
 
 ## 소개
 Ceph Documentation 을 기존 레이아웃 그대로 사용하면서 번역하며 작업할 수 있도록 커스텀된 레포지토리입니다.
