@@ -2,8 +2,9 @@
  Architecture
 ==============
 
-:term:`Ceph` uniquely delivers **object, block, and file storage** in one
-unified system. Ceph is highly reliable, easy to manage, and free. The power of
+:term:`Ceph` 은 **object, block, file 스토리지** 를 하나의 통합된 환경
+으로 제공하는 유일한 시스템입니다.
+Ceph is highly reliable, easy to manage, and free. The power of
 Ceph can transform your company's IT infrastructure and your ability to manage
 vast amounts of data. Ceph delivers extraordinary scalability–thousands of
 clients accessing petabytes to exabytes of data. A :term:`Ceph Node` leverages
