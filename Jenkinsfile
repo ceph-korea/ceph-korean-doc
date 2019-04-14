@@ -20,5 +20,11 @@ pipeline {
                 sh 'yes | cp -rf ./ceph/build-doc/output/html/* /usr/share/nginx/html/'
             }
         }
+        stage('Reload nginx') {
+            steps {
+                echo 'Restarting nginx...'
+                sh 'systemctl reload nginx'
+            }
+        }
     }
 }
