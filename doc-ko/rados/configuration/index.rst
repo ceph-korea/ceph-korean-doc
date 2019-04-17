@@ -1,7 +1,6 @@
 ===============
  Configuration
 ===============
-
 Each Ceph process, daemon or utility draws its configuration from
 several sources on startup, include a local configuration, the
 monitors, the command line, or environment variables.  Configuration
@@ -13,7 +12,7 @@ daemon, process, or client.
 
 	<table cellpadding="10"><colgroup><col width="50%"><col width="50%"></colgroup><tbody valign="top"><tr><td><h3>Configuring the Object Store</h3>
 
-For general object store configuration, refer to the following:
+일반적인 object store 설정은, 다음을 참고하세요.
 
 .. toctree::
    :maxdepth: 1
