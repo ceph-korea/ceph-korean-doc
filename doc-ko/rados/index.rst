@@ -57,7 +57,7 @@ Ceph Storage Cluster 를 배포하고 나면, 이제 여러분은 클러스터�
 
 	</td><td><h3>APIs</h3>
 
-대부분의 Ceph 사용자들은 `Ceph Block Device`_, `Ceph Object Storage`_ 혹은 `Ceph Filesystem`_ 
+대부분의 Ceph 사용자들은 `Ceph Block Devices`_, `Ceph Object Storage`_ 혹은 `Ceph Filesystem`_ 
 을 사용합니다. Ceph Storage Cluster 에 직접적으로 통신할 수 있는 어플리케이션을 여러분이 개발하는 것 또한 
 가능합니다.
 
