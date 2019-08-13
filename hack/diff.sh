@@ -20,6 +20,7 @@ for FILE in `cat ./completed`; do
 done
 
 rm -rf ./ceph.new
+echo ""
 if [ ! -f $DIFFPATH ]; then
     echo "No diff exists"
 else
