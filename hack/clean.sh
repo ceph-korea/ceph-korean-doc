@@ -2,5 +2,4 @@
 
 cd ceph
 git stash
-rm -rf doc-orig
-cd ..
+rm -rf doc.orig
