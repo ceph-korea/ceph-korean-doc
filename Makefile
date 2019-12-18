@@ -9,3 +9,6 @@ clean:
 
 diff: clean
 	./hack/diff.sh
+
+querytrans: 
+	./hack/querytrans.sh

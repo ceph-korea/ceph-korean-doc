@@ -1,0 +1,38 @@
+ORIGINAL,TRANSLATED
+Ceph,Ceph
+Storage Cluster,스토리지 클러스터
+Object Storage,오브젝트 스토리지
+Block Storage,블록 스토리지
+File Storage,파일 스토리지
+Interface,인터페이스
+API,API
+S3,S3
+Swift,Swift
+Namespace,네임스페이스
+Striping,스트라이핑
+Cloud solution,클라우드 솔루션
+Deployment,배포
+Replication,레플리케이션
+Thin-provisioning,Thin-provisioning
+Image,이미지
+In-memory,In-memory
+Snapshot,스냅샷
+Copy-on-write,Copy-on-write
+Cloning,클론
+Kernel,커널
+Driver,드라이버
+Incremental backup,증분 백업
+Disaster recovery,재해 복구
+Metadata,메타데이터
+Rebalancing,리밸런싱
+Subdirectory,서브디렉토리
+FUSE,FUSE
+Hadoop,Hadoop
+HDFS,HDFS
+Application,어플리케이션
+Gateway,게이트웨이
+Compatible,호환
+Openstack,Openstack
+Daemon,데몬
+Radosgw,Radosgw
+Client,클라이언트
