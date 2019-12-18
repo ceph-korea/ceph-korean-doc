@@ -44,16 +44,14 @@ Building wheels for collected packages: rados
 ...
 ```
 
-6. serve.sh 를 실행하여 `localhost:8080` 에서 확인합니다.
+6. `make serve` 를 실행하여 `localhost:8080` 에서 확인합니다.
 ```
 $ make serve
 Serving doc at port: http://localhost:8080
 ```
 
 ## PR 올리기
-번역 후 commit 하기 전, `make clean` 를 실행하여 submodule 을 원상복구 해줍니다. diff 에 ceph/ 하위 디렉토리가 잡히지 않도록 하여 푸시하고, ceph-korea/master 브랜치로 PR 을 올립니다.
-
-하나의 문서를 모두 번여 완료하였다면, 꼭 `completed` 파일에 `ceph-korean-doc` 의 상대경로로 문서의 경로를 작성해 주세요. (추후 diff 추적을 위함입니다.)
+하나의 문서를 모두 번역 완료하였다면, 꼭 `completed` 파일에 `ceph-korean-doc` 의 상대경로로 문서의 경로를 작성해 주세요. (추후 diff 추적을 위함입니다.)
 
 ## Diff 체크
 upstream 에 계속해서 업데이트가 일어나 이미 번역된 문서가 변경되었을 때, diff 체크를 수행하여 해당 부분의 번역을 따라갑니다.
