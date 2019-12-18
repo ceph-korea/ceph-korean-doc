@@ -12,5 +12,5 @@ if [[ $FWORD == "" ]]; then
 fi
 
 echo "Results:"
-echo $FWORD | sed 's/,/ -> /g' | sed 's/:/: /g'
+echo "$FWORD" | sed 's/,/ -> /g' | sed 's/:/: /g'
 echo ""
