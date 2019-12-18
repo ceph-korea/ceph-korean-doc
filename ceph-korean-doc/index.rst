@@ -100,7 +100,7 @@ Ceph 의 힘으로 당신의 회사의 IT 인프라스트럭쳐와 능력을 방
    mgr/dashboard
    api/index
    architecture
-   Developer Guide <dev/developer_guide/index>
+   Developer Guide <dev/index>
    dev/internals
    governance
    ceph-volume/index
