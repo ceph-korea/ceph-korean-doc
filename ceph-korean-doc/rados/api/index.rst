@@ -2,7 +2,7 @@
  Ceph Storage Cluster APIs
 ===========================
 
-The :term:`Ceph Storage Cluster` has a messaging layer protocol that enables
+The :term:`Ceph 스토리지 클러스터` has a messaging layer protocol that enables
 clients to interact with a :term:`Ceph Monitor` and a :term:`Ceph OSD Daemon`.
 ``librados`` provides this functionality to :term:`Ceph Clients` in the form of
 a library.  All Ceph Clients either use ``librados`` or the same functionality

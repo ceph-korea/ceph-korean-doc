@@ -6,13 +6,13 @@
 
 After you have completed your initial Ceph configuration, you may deploy and run
 Ceph.  When you execute a command such as ``ceph health`` or ``ceph -s``,  the
-:term:`Ceph Monitor` reports on the current state of the :term:`Ceph Storage
-Cluster`. The Ceph Monitor knows about the Ceph Storage Cluster by requiring
+:term:`Ceph Monitor` reports on the current state of the :term:`Ceph 스토리지
+클러스터`. The Ceph Monitor knows about the Ceph Storage Cluster by requiring
 reports from each :term:`Ceph OSD Daemon`, and by receiving reports from Ceph
 OSD Daemons about the status of their neighboring Ceph OSD Daemons. If the Ceph
 Monitor doesn't receive reports, or if it receives reports of changes in the
 Ceph Storage Cluster, the Ceph Monitor updates the status of the :term:`Ceph
-Cluster Map`.
+클러스터 맵`.
 
 Ceph provides reasonable default settings for Ceph Monitor/Ceph OSD Daemon
 interaction. However, you may override the defaults. The following sections

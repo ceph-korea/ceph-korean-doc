@@ -4,7 +4,7 @@
  Quick Ceph Object Storage
 ===========================
 
-To use the :term:`Ceph Object Storage` Quick Start guide, you must have executed the
+To use the :term:`Ceph 오브젝트 스토리지` Quick Start guide, you must have executed the
 procedures in the `Storage Cluster Quick Start`_ guide first. Make sure that you
 have at least one :term:`RGW` instance running.
 

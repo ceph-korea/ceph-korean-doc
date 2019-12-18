@@ -3,9 +3,9 @@
 ==========================
 
 To use this guide, you must have executed the procedures in the `Storage
-Cluster Quick Start`_ guide first. Ensure your :term:`Ceph Storage Cluster` is
-in an ``active + clean`` state before working with the :term:`Ceph Block
-Device`. 
+Cluster Quick Start`_ guide first. Ensure your :term:`Ceph 스토리지 클러스터` is
+in an ``active + clean`` state before working with the :term:`Ceph 블록
+디바이스`. 
 
 .. note:: The Ceph Block Device is also known as :term:`RBD` or :term:`RADOS`
    Block Device.

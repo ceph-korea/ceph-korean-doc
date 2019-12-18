@@ -147,7 +147,7 @@ Mount 12 Error
 
 A mount 12 error with ``cannot allocate memory`` usually occurs if you  have a
 version mismatch between the :term:`Ceph Client` version and the :term:`Ceph
-Storage Cluster` version. Check the versions using::
+스토리지 클러스터` version. Check the versions using::
 
 	ceph -v
 	

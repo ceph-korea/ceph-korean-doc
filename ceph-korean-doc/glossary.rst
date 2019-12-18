@@ -14,57 +14,52 @@ reflect either technical terms or legacy ways of referring to Ceph systems.
 
 .. glossary::
 
-	Ceph Project
-		The aggregate term for the people, software, mission and infrastructure
-		of Ceph.
+	Ceph 프로젝트
+		Ceph 의 사람들, 소프트웨어, 미션 및 인프라에 대한 총칭
 
 	cephx
-		The Ceph authentication protocol. Cephx operates like Kerberos, but it
-		has no single point of failure.
+		Ceph 인증 프로토콜. Cephx 는 Kerberos 와 비슷하게 동작하지만, 
+		단일 실패 지점이 없습니다.
 
 	Ceph
-	Ceph Platform
-		All Ceph software, which includes any piece of code hosted at
-		`https://github.com/ceph`_.
+	Ceph 플랫폼
+		`https://github.com/ceph`_ 에서 호스팅되는 모든 Ceph 소프트웨어
 
-	Ceph System
-	Ceph Stack
-		A collection of two or more components of Ceph.
+	Ceph 시스템
+	Ceph 스택
+		두개 이상의 Ceph 컴포넌트의 집합
 
-	Ceph Node
-	Node
-	Host
-		Any single machine or server in a Ceph System.
+	Ceph 노드
+	노드
+	호스트
+		Ceph 시스템 내에 있는 단일 머신
 
-	Ceph Storage Cluster
-	Ceph Object Store
+	Ceph 스토리지 클러스터
+	Ceph 오브젝트 스토어
 	RADOS
-	RADOS Cluster
-	Reliable Autonomic Distributed Object Store
-		The core set of storage software which stores the user's data (MON+OSD).
+	RADOS 클러스터
+	안정적인 자율 분산 오브젝트 스토어
+		유저의 데이터를 저장하는 스토리지 소프트웨어의 핵심 세트 (MON+OSD)
 
-	Ceph Cluster Map
-	cluster map
-		The set of maps comprising the monitor map, OSD map, PG map, MDS map and
-		CRUSH map. See `Cluster Map`_ for details.
+	Ceph 클러스터 맵
+	클러스터 맵
+		모니터 맵, OSD 맵, PG 맵, MDS 맵, CRUSH 맵으로 구성된 맵의 세트. `Cluster Map`_ 을 참고하세요.
 
-	Ceph Object Storage
-		The object storage "product", service or capabilities, which consists
-		essentially of a Ceph Storage Cluster and a Ceph Object Gateway.
+	Ceph 오브젝트 스토리지
+		Ceph 스토리지 클러스터와 Ceph 오브젝트 게이트웨이로 구성된 오브젝트 스토리지 "상품", 서비스 또는 기능
 
-	Ceph Object Gateway
+	Ceph 오브젝트 게이트웨이
 	RADOS Gateway
 	RGW
-		The S3/Swift gateway component of Ceph.
+		Ceph 의 S3/Swift 게이트웨이 컴포넌트
 
-	Ceph Block Device
+	Ceph 블록 디바이스
 	RBD
-		The block storage component of Ceph.
+		Ceph 의 블록 스토리지 컴포넌트
 
-	Ceph Block Storage
-		The block storage "product," service or capabilities when used in
-		conjunction with ``librbd``, a hypervisor such as QEMU or Xen, and a
-		hypervisor abstraction layer such as ``libvirt``.
+	Ceph 블록 스토리지
+		QEMU 또는 Xen 와 같은 하이퍼바이저, 및 ``libvirt`` 와 같은 하이퍼바이저 추상화
+		계층과 함께 사용되는 블록 스토리지 "제품", 서비스 또는 기능
 
 	Ceph Filesystem
 	CephFS

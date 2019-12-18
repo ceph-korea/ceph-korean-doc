@@ -3,7 +3,7 @@
 ==========================
 
 Understanding how to configure a :term:`Ceph Monitor` is an important part of
-building a reliable :term:`Ceph Storage Cluster`. **All Ceph Storage Clusters
+building a reliable :term:`Ceph 스토리지 클러스터`. **All Ceph Storage Clusters
 have at least one monitor**. A monitor configuration usually remains fairly
 consistent, but you can add, remove or replace a monitor in a cluster. See
 `Adding/Removing a Monitor`_ and `Add/Remove a Monitor (ceph-deploy)`_ for
@@ -15,7 +15,7 @@ details.
 Background
 ==========
 
-Ceph Monitors maintain a "master copy" of the :term:`cluster map`, which means a
+Ceph Monitors maintain a "master copy" of the :term:`클러스터 맵`, which means a
 :term:`Ceph Client` can determine the location of all Ceph Monitors, Ceph OSD
 Daemons, and Ceph Metadata Servers just by connecting to one Ceph Monitor and
 retrieving a current cluster map. Before Ceph Clients can read from or write to

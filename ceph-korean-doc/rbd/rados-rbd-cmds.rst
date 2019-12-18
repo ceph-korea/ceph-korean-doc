@@ -53,7 +53,7 @@ Creating a Block Device Image
 =============================
 
 Before you can add a block device to a node, you must create an image for it in
-the :term:`Ceph Storage Cluster` first. To create a block device image, execute
+the :term:`Ceph 스토리지 클러스터` first. To create a block device image, execute
 the  following::
 
 	rbd create --size {megabytes} {pool-name}/{image-name}
@@ -128,7 +128,7 @@ For example::
 Resizing a Block Device Image
 =============================
 
-:term:`Ceph Block Device` images are thin provisioned. They don't actually use
+:term:`Ceph 블록 디바이스` images are thin provisioned. They don't actually use
 any physical storage  until you begin saving data to them. However, they do have
 a maximum capacity  that you set with the ``--size`` option. If you want to
 increase (or decrease) the maximum size of a Ceph Block Device image, execute

@@ -15,10 +15,10 @@ There are two ways to get packages:
 - **Add Repositories:** Adding repositories is the easiest way to get packages,
   because package management tools will retrieve the packages and all enabling
   software for you in most cases. However, to use this approach, each
-  :term:`Ceph Node` in your cluster must have internet access.
+  :term:`Ceph 노드` in your cluster must have internet access.
 
 - **Download Packages Manually:** Downloading packages manually is a convenient
-  way to install Ceph if your environment does not allow a :term:`Ceph Node` to
+  way to install Ceph if your environment does not allow a :term:`Ceph 노드` to
   access the internet.
 
 

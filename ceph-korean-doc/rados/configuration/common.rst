@@ -5,8 +5,7 @@ Common Settings
 ===============
 
 The `Hardware Recommendations`_ section provides some hardware guidelines for
-configuring a Ceph Storage Cluster. It is possible for a single :term:`Ceph
-Node` to run multiple daemons. For example, a single node with multiple drives
+configuring a Ceph Storage Cluster. It is possible for a single :term:`Ceph 노드` to run multiple daemons. For example, a single node with multiple drives
 may run one ``ceph-osd`` for each drive. Ideally, you will  have a node for a
 particular type of process. For example, some nodes may run ``ceph-osd``
 daemons, other nodes may run ``ceph-mds`` daemons, and still  other nodes may
@@ -48,7 +47,7 @@ Monitors
 Ceph production clusters typically deploy with a minimum 3 :term:`Ceph Monitor`
 daemons to ensure high availability should a monitor instance crash. At least
 three (3) monitors ensures that the Paxos algorithm can determine which version
-of the :term:`Ceph Cluster Map` is the most recent from a majority of Ceph
+of the :term:`Ceph 클러스터 맵` is the most recent from a majority of Ceph
 Monitors in the quorum.
 
 .. note:: You may deploy Ceph with a single monitor, but if the instance fails,

@@ -2,11 +2,11 @@
  Intro to Ceph
 ===============
 
-Whether you want to provide :term:`Ceph Object Storage` and/or
-:term:`Ceph Block Device` services to :term:`Cloud Platforms`, deploy
+Whether you want to provide :term:`Ceph 오브젝트 스토리지` and/or
+:term:`Ceph 블록 디바이스` services to :term:`Cloud Platforms`, deploy
 a :term:`Ceph Filesystem` or use Ceph for another purpose, all
-:term:`Ceph Storage Cluster` deployments begin with setting up each
-:term:`Ceph Node`, your network, and the Ceph Storage Cluster. A Ceph
+:term:`Ceph 스토리지 클러스터` deployments begin with setting up each
+:term:`Ceph 노드`, your network, and the Ceph Storage Cluster. A Ceph
 Storage Cluster requires at least one Ceph Monitor, Ceph Manager, and
 Ceph OSD (Object Storage Daemon). The Ceph Metadata Server is also
 required when running Ceph Filesystem clients.

@@ -21,7 +21,7 @@ Prerequisites
 	ceph-deploy install ceph-client
 
 
-#. Ensure that the :term:`Ceph Storage Cluster` is running and in an ``active +
+#. Ensure that the :term:`Ceph 스토리지 클러스터` is running and in an ``active +
    clean``  state. Also, ensure that you have at least one :term:`Ceph Metadata
    Server` running. :: 
 

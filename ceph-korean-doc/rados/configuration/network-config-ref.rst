@@ -3,7 +3,7 @@
 =================================
 
 Network configuration is critical for building a high performance  :term:`Ceph
-Storage Cluster`. The Ceph Storage Cluster does not perform  request routing or
+스토리지 클러스터`. The Ceph Storage Cluster does not perform  request routing or
 dispatching on behalf of the :term:`Ceph Client`. Instead, Ceph Clients make
 requests directly to Ceph OSD Daemons. Ceph OSD Daemons perform data replication
 on behalf of Ceph Clients, which means replication and other factors impose
@@ -20,7 +20,7 @@ It is possible to run a Ceph Storage Cluster with two networks: a public
 complicates network configuration (both hardware and software) and does not usually have a significant impact on overall performance.  For this reason, we generally recommend that dual-NIC systems either be configured with two IPs on the same network, or bonded.
 
 If, despite the complexity, one still wishes to use two networks, each
-:term:`Ceph Node` will need to have more than one NIC. See `Hardware
+:term:`Ceph 노드` will need to have more than one NIC. See `Hardware
 Recommendations - Networks`_ for additional details.
 
 .. ditaa::

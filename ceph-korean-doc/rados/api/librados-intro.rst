@@ -2,7 +2,7 @@
  Introduction to librados
 ==========================
 
-The :term:`Ceph Storage Cluster` provides the basic storage service that allows
+The :term:`Ceph 스토리지 클러스터` provides the basic storage service that allows
 :term:`Ceph` to uniquely deliver **object, block, and file storage** in one
 unified system. However, you are not limited to using the RESTful, block, or
 POSIX interfaces. Based upon :abbr:`RADOS (Reliable Autonomic Distributed Object
@@ -155,7 +155,7 @@ Step 2: Configuring a Cluster Handle
 A :term:`Ceph Client`, via ``librados``, interacts directly with OSDs to store
 and retrieve data. To interact with OSDs, the client app must invoke
 ``librados``  and connect to a Ceph Monitor. Once connected, ``librados``
-retrieves the  :term:`Cluster Map` from the Ceph Monitor. When the client app
+retrieves the  :term:`클러스터 맵` from the Ceph Monitor. When the client app
 wants to read or write data, it creates an I/O context and binds to a
 :term:`pool`. The pool has an associated :term:`CRUSH Rule` that defines how it
 will place data in the storage cluster. Via the I/O context, the client 

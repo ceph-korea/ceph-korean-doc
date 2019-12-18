@@ -1,0 +1,23 @@
+ORIGINAL,TRANSLATED
+Ceph Project,Ceph 프로젝트
+cephx,cephx
+Ceph Platform,Ceph 플랫폼
+Ceph System,Ceph 시스템
+Ceph Stack,Ceph 스택
+Ceph Node,Ceph 노드
+Node,노드
+Host,호스트
+Ceph Stroage Cluster,Ceph 스토리지 클러스터
+Ceph Object Store,Ceph 오브젝트 스토어
+RADOS,RADOS
+Rados Cluster,RADOS 클러스터
+Reliable Autonomic Distributed Object Store,안정적인 자율 분산 오브젝트 스토어
+Ceph Cluster Map,Ceph 클러스터 맵
+cluster map,클러스터 맵
+Ceph Object Storage,Ceph 오브젝트 스토리지
+Ceph Object Gateway,Ceph 오브젝트 게이트웨이
+RADOS Gateway,RADOS 게이트웨이
+RGW,RGW
+Ceph Block Device,Ceph 블록 디바이스
+RBD,RBD
+Ceph Block Stroage,Ceph 블록 스토리지

@@ -5,7 +5,7 @@
 ==================
 
 When you start the Ceph service, the initialization process activates a series
-of daemons that run in the background. A :term:`Ceph Storage Cluster` runs 
+of daemons that run in the background. A :term:`Ceph 스토리지 클러스터` runs 
 three types of daemons:
 
 - :term:`Ceph Monitor` (``ceph-mon``)
@@ -14,7 +14,7 @@ three types of daemons:
 
 Ceph Storage Clusters that support the :term:`Ceph Filesystem` run at
 least one :term:`Ceph Metadata Server` (``ceph-mds``). Clusters that
-support :term:`Ceph Object Storage` run Ceph Gateway daemons
+support :term:`Ceph 오브젝트 스토리지` run Ceph Gateway daemons
 (``radosgw``).
 
 Each daemon has a series of configuration options, each of which has a

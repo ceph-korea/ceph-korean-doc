@@ -36,3 +36,14 @@ Openstack,Openstack
 Daemon,데몬
 Radosgw,Radosgw
 Client,클라이언트
+Kerberos,Kerberos
+Single Point of Failure,단일 실패 지점
+monitor,모니터
+OSD,OSD
+PG,PG
+MDS,MDS
+CRUSH,CRUSH
+librbd,librbd
+QEMU,QEMU
+Xen,Xen
+hypervisor,하이퍼바이저

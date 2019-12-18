@@ -3,7 +3,7 @@
 =============================
 
 If you haven't completed your `Preflight Checklist`_, do that first. This
-**Quick Start** sets up a :term:`Ceph Storage Cluster` using ``ceph-deploy``
+**Quick Start** sets up a :term:`Ceph 스토리지 클러스터` using ``ceph-deploy``
 on your admin node. Create a three Ceph Node cluster so you can
 explore Ceph functionality.
 
@@ -249,7 +249,7 @@ You should see the standby managers in the output from::
 Add an RGW Instance
 -------------------
 
-To use the :term:`Ceph Object Gateway` component of Ceph, you must deploy an
+To use the :term:`Ceph 오브젝트 게이트웨이` component of Ceph, you must deploy an
 instance of :term:`RGW`.  Execute the following to create an new instance of
 RGW::
 

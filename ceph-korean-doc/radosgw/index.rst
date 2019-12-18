@@ -4,9 +4,9 @@
  Ceph Object Gateway
 =====================
 
-:term:`Ceph Object Gateway` is an object storage interface built on top of
+:term:`Ceph 오브젝트 게이트웨이` is an object storage interface built on top of
 ``librados`` to provide applications with a RESTful gateway to
-Ceph Storage Clusters. :term:`Ceph Object Storage` supports two interfaces:
+Ceph Storage Clusters. :term:`Ceph 오브젝트 스토리지` supports two interfaces:
 
 #. **S3-compatible:** Provides object storage functionality with an interface
    that is compatible with a large subset of the Amazon S3 RESTful API.

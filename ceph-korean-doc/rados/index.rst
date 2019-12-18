@@ -2,7 +2,7 @@
  Ceph Storage Cluster
 ======================
 
-The :term:`Ceph Storage Cluster` is the foundation for all Ceph deployments.
+The :term:`Ceph 스토리지 클러스터` is the foundation for all Ceph deployments.
 Based upon :abbr:`RADOS (Reliable Autonomic Distributed Object Store)`, Ceph
 Storage Clusters consist of two types of daemons: a :term:`Ceph OSD Daemon`
 (OSD) stores data as objects on a storage node; and a :term:`Ceph Monitor` (MON)

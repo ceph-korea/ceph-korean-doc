@@ -28,7 +28,7 @@ Install Software
 ================
 
 Once you have the Ceph software (or added repositories), installing the software
-is easy. To install packages on each :term:`Ceph Node` in your cluster. You may
+is easy. To install packages on each :term:`Ceph 노드` in your cluster. You may
 use  ``ceph-deploy`` to install Ceph for your storage cluster, or use package
 management tools. You should install Yum Priorities for RHEL/CentOS and other
 distributions that use Yum if you intend to install the Ceph Object Gateway or

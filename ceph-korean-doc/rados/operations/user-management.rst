@@ -5,7 +5,7 @@
 =================
 
 This document describes :term:`Ceph Client` users, and their authentication and
-authorization with the :term:`Ceph Storage Cluster`. Users are either
+authorization with the :term:`Ceph 스토리지 클러스터`. Users are either
 individuals or system actors such as applications, which use Ceph clients to
 interact with the Ceph Storage Cluster daemons.
 

@@ -7,7 +7,7 @@
 	<style type="text/css">div.body h3{margin:5px 0px 0px 0px;}</style>
 	<table cellpadding="10"><colgroup><col width="33%"><col width="33%"><col width="33%"></colgroup><tbody valign="top"><tr><td><h3>Step 1: Preflight</h3>
 
-A :term:`Ceph Client` and a :term:`Ceph Node` may require some basic
+A :term:`Ceph Client` and a :term:`Ceph 노드` may require some basic
 configuration  work prior to deploying a Ceph Storage Cluster. You can also
 avail yourself of help by getting involved in the Ceph community.
 

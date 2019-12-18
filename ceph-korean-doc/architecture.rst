@@ -6,8 +6,8 @@
 unified system. Ceph is highly reliable, easy to manage, and free. The power of
 Ceph can transform your company's IT infrastructure and your ability to manage
 vast amounts of data. Ceph delivers extraordinary scalability–thousands of
-clients accessing petabytes to exabytes of data. A :term:`Ceph Node` leverages
-commodity hardware and intelligent daemons, and a :term:`Ceph Storage Cluster`
+clients accessing petabytes to exabytes of data. A :term:`Ceph 노드` leverages
+commodity hardware and intelligent daemons, and a :term:`Ceph 스토리지 클러스터`
 accommodates large numbers of nodes, which communicate with each other to
 replicate and redistribute data dynamically.
 
@@ -17,7 +17,7 @@ replicate and redistribute data dynamically.
 The Ceph Storage Cluster
 ========================
 
-Ceph provides an infinitely scalable :term:`Ceph Storage Cluster` based upon
+Ceph provides an infinitely scalable :term:`Ceph 스토리지 클러스터` based upon
 :abbr:`RADOS (Reliable Autonomic Distributed Object Store)`, which you can read
 about in `RADOS - A Scalable, Reliable Storage Service for Petabyte-scale
 Storage Clusters`_.
@@ -50,7 +50,7 @@ Storing Data
 ------------
 
 The Ceph Storage Cluster receives data from :term:`Ceph Clients`--whether it
-comes through a :term:`Ceph Block Device`, :term:`Ceph Object Storage`, the
+comes through a :term:`Ceph 블록 디바이스`, :term:`Ceph 오브젝트 스토리지`, the
 :term:`Ceph Filesystem` or a custom implementation you create using
 ``librados``--and it stores the data as objects. Each object corresponds to a
 file in a filesystem, which is stored on an :term:`Object Storage Device`. Ceph
@@ -1423,14 +1423,14 @@ Ceph Clients
 
 Ceph Clients include a number of service interfaces. These include:
 
-- **Block Devices:** The :term:`Ceph Block Device` (a.k.a., RBD) service 
+- **Block Devices:** The :term:`Ceph 블록 디바이스` (a.k.a., RBD) service 
   provides resizable, thin-provisioned block devices with snapshotting and
   cloning. Ceph stripes a block device across the cluster for high
   performance. Ceph supports both kernel objects (KO) and a QEMU hypervisor 
   that uses ``librbd`` directly--avoiding the kernel object overhead for 
   virtualized systems.
 
-- **Object Storage:** The :term:`Ceph Object Storage` (a.k.a., RGW) service 
+- **Object Storage:** The :term:`Ceph 오브젝트 스토리지` (a.k.a., RGW) service 
   provides RESTful APIs with interfaces that are compatible with Amazon S3
   and OpenStack Swift. 
   
