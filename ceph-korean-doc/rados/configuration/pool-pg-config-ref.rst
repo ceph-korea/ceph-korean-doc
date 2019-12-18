@@ -60,15 +60,6 @@ Ceph configuration file.
 :Default: ``30``
 
 
-``mon pg warn max per osd``
-
-:Description: Issue a ``HEALTH_WARN`` in cluster log if the average number
-              of PGs per (in) OSD is above this number. (a non-positive number
-              disables this)
-:Type: Integer
-:Default: ``300``
-
-
 ``mon pg warn min objects``
 
 :Description: Do not warn if the total number of objects in cluster is below
@@ -96,8 +87,8 @@ Ceph configuration file.
 
 :Description: Issue a ``HEALTH_WARN`` in cluster log if the average object number
               of a certain pool is greater than ``mon pg warn max object skew`` times
-              the average object number of the whole pool. (zero or a non-positive
-              number disables this). Note that this option applies to the managers.
+              the average object number of the whole pool. (a non-positive number
+              disables this)
 :Type: Float
 :Default: ``10``
 

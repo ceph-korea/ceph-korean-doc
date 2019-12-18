@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cd ceph
-git stash
+git submodule foreach 'git stash'
 rm -rf doc.orig

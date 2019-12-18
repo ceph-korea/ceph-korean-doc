@@ -70,7 +70,7 @@ authentication keyring.
 	:maxdepth: 1
 
 	Create a CephFS file system <createfs>
-	Mount CephFS with the Kernel Driver <kernel>
+	Mount CephFS <kernel>
 	Mount CephFS as FUSE <fuse>
 	Mount CephFS in fstab <fstab>
 	Use the CephFS Shell <cephfs-shell>
@@ -110,6 +110,7 @@ authentication keyring.
     Application best practices <app-best-practices>
     Scrub <scrub>
     LazyIO <lazyio>
+    FS volume and subvolumes <fs-volumes>
 
 .. toctree:: 
    :hidden:

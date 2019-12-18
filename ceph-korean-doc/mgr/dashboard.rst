@@ -335,7 +335,7 @@ If ceph-iscsi REST API is configured in HTTPS mode and its using a self-signed
 certificate, then you need to configure the dashboard to avoid SSL certificate
 verification when accessing ceph-iscsi API.
 
-To disable API SSL verification run the following command::
+To disable API SSL verification run the following commmand::
 
     $ ceph dashboard set-iscsi-api-ssl-verification false
 
@@ -609,7 +609,7 @@ We provide a set of CLI commands to manage user accounts:
 
 - *Create User*::
 
-  $ ceph dashboard ac-user-create <username> [<password>] [<rolename>] [<name>] [<email>] [<enabled>]
+  $ ceph dashboard ac-user-create <username> [<password>] [<rolename>] [<name>] [<email>]
 
 - *Delete User*::
 
@@ -619,24 +619,10 @@ We provide a set of CLI commands to manage user accounts:
 
   $ ceph dashboard ac-user-set-password <username> <password>
 
-- *Change Password Hash*::
-
-  $ ceph dashboard ac-user-set-password-hash <username> <hash>
-
-  The hash must be a bcrypt hash and salt, e.g. ``$2b$12$Pt3Vq/rDt2y9glTPSV.VFegiLkQeIpddtkhoFetNApYmIJOY8gau2``.
-  This can be used to import users from an external database.
-
 - *Modify User (name, and email)*::
 
   $ ceph dashboard ac-user-set-info <username> <name> <email>
 
-- *Disable User*::
-
-  $ ceph dashboard ac-user-disable <username>
-
-- *Enable User*::
-
-  $ ceph dashboard ac-user-enable <username>
 
 User Roles and Permissions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^

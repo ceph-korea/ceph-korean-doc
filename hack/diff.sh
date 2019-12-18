@@ -6,10 +6,9 @@ if [[ "$BRANCH" == "" ]]; then
 fi
 
 DIFFPATH=/tmp/ceph-korean-doc.diff
+rm -rf $DIFFPATH
 
 git clone --single-branch --branch $BRANCH git@github.com:ceph/ceph.git ceph.new
-
-rm -rf ./diff
 for FILE in `cat ./completed`; do
     DIFF=`git diff --patch --raw --text --no-index ./ceph.new/doc/$FILE ./ceph/doc/$FILE`
     if [[ "$DIFF" != "" ]]; then

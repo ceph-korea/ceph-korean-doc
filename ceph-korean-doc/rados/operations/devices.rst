@@ -1,6 +1,3 @@
-
-.. _devices:
-
 Device Management
 =================
 

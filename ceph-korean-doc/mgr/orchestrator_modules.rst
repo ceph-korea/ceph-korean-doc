@@ -250,8 +250,6 @@ OSD management
 .. automethod:: Orchestrator.replace_osds
 .. automethod:: Orchestrator.remove_osds
 
-.. py:currentmodule:: ceph.deployment.drive_group
-
 .. autoclass:: DeviceSelection
    :members:
 
@@ -259,25 +257,12 @@ OSD management
    :members:
    :exclude-members: from_json
 
-.. py:currentmodule:: orchestrator
-
 Stateless Services
 ------------------
 
-.. autoclass:: StatelessServiceSpec
-
-.. automethod:: Orchestrator.add_mds
-.. automethod:: Orchestrator.remove_mds
-.. automethod:: Orchestrator.update_mds
-.. automethod:: Orchestrator.add_rgw
-.. automethod:: Orchestrator.remove_rgw
-.. automethod:: Orchestrator.update_rgw
-
-.. autoclass:: NFSServiceSpec
-
-.. automethod:: Orchestrator.add_nfs
-.. automethod:: Orchestrator.remove_nfs
-.. automethod:: Orchestrator.update_nfs
+.. automethod:: Orchestrator.add_stateless_service
+.. automethod:: Orchestrator.update_stateless_service
+.. automethod:: Orchestrator.remove_stateless_service
 
 Upgrades
 --------
@@ -292,7 +277,6 @@ Utility
 -------
 
 .. automethod:: Orchestrator.available
-.. automethod:: Orchestrator.get_feature_set
 
 Client Modules
 --------------
