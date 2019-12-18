@@ -1,3 +1,5 @@
+![Ceph Version](https://img.shields.io/badge/ceph%20version-nautilus%20(bff2ab99c62ed4aa28c5cd5c177b65abd8c992e3)-red)
+
 # 🛠️ Ceph Korean Documentation
 > Korean translation of [ceph Documentation](http://docs.ceph.com/docs/nautilus/#), With [Korea Ceph User Group - Facebook](https://www.facebook.com/groups/620899444961207)
 
