@@ -106,7 +106,6 @@ class Mock(object):
 sys.modules['ceph_module'] = Mock()
 
 for pybind in [os.path.join(top_level, 'src/pybind'),
-               os.path.join(top_level, 'src/pybind/mgr'),
-               os.path.join(top_level, 'src/python-common')]:
+               os.path.join(top_level, 'src/pybind/mgr')]:
     if pybind not in sys.path:
         sys.path.insert(0, pybind)

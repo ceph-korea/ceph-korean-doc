@@ -38,7 +38,7 @@ like this:
    :align: center
 
 For additional details on setting up a cluster, see `Ceph Object Gateway for
-Production <https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/3/html/ceph_object_gateway_for_production/index/>`__.
+Production <https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/2/html/ceph_object_gateway_for_production/>`__.
 
 Functional Changes from Infernalis
 ==================================
@@ -82,7 +82,6 @@ of the master zone group.
 See `Pools`_ for instructions on creating and tuning pools for Ceph
 Object Storage.
 
-.. _master-zone-label:
 
 Configuring a Master Zone
 =========================
@@ -230,7 +229,7 @@ the default zone group first.
 
     # radosgw-admin zonegroup remove --rgw-zonegroup=default --rgw-zone=default
     # radosgw-admin period update --commit
-    # radosgw-admin zone delete --rgw-zone=default
+    # radosgw-admin zone rm --rgw-zone=default
     # radosgw-admin period update --commit
     # radosgw-admin zonegroup delete --rgw-zonegroup=default
     # radosgw-admin period update --commit
@@ -323,8 +322,6 @@ service:
     # systemctl start ceph-radosgw@rgw.`hostname -s`
     # systemctl enable ceph-radosgw@rgw.`hostname -s`
 
-.. _secondary-zone-label:
-
 Configure Secondary Zones
 =========================
 
@@ -407,7 +404,7 @@ Delete the default zone if needed.
 
 ::
 
-    # radosgw-admin zone delete --rgw-zone=default
+    # radosgw-admin zone rm --rgw-zone=default
 
 Finally, delete the default pools in your Ceph storage cluster if
 needed.
@@ -1280,7 +1277,7 @@ Next, delete the zone. Execute the following:
 
 ::
 
-    # radosgw-admin zone delete --rgw-zone<name>
+    # radosgw-admin zone rm --rgw-zone<name>
 
 Finally, update the period:
 

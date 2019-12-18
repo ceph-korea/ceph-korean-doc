@@ -35,9 +35,6 @@ which are as follows:
   Display information of a user, and any potentially available
   subusers and keys.
 
-:command:`user rename`
-  Renames a user.
-
 :command:`user rm`
   Remove a user.
 
@@ -91,10 +88,6 @@ which are as follows:
 
 :command:`bucket unlink`
   Unlink bucket from specified user.
-
-:command:`bucket chown`
-  Link bucket to specified user and update object ACLs. 
-  Use --marker to resume if command gets interrupted.
 
 :command:`bucket stats`
   Returns bucket statistics.
@@ -470,10 +463,6 @@ Options
 
    The radosgw user ID.
 
-.. option:: --new-uid=uid
-
-   ID of the new user. Used with 'user rename' command.
-
 .. option:: --subuser=<name>
 
 	Name of the subuser.
@@ -528,10 +517,9 @@ Options
 
    Set the system flag on the user.
 
-.. option:: --bucket=[tenant-id/]bucket
+.. option:: --bucket=bucket
 
-   Specify the bucket name.  If tenant-id is not specified, the tenant-id
-   of the user (--uid) is used.
+   Specify the bucket name.
 
 .. option:: --pool=<pool>
 
@@ -558,15 +546,9 @@ Options
 
    Specify the bucket id.
 
-.. option:: --bucket-new-name=[tenant-id/]<bucket>
-
-   Optional for `bucket link`; use to rename a bucket.
-        While tenant-id/ can be specified, this is never
-        necessary for normal operation.
-
 .. option:: --shard-id=<shard-id>
 
-	Optional for mdlog list, bi list, data sync status. Required for ``mdlog trim``.
+	Optional for mdlog list, data sync status. Required for ``mdlog trim``.
 
 .. option:: --max-entries=<entries>
 
@@ -902,10 +884,6 @@ Generate a new user::
 Remove a user::
 
         $ radosgw-admin user rm --uid=johnny
-
-Rename a user::
-
-        $ radosgw-admin user rename --uid=johny --new-uid=joe
         
 Remove a user and all associated buckets with their contents::
 
@@ -922,18 +900,6 @@ Link bucket to specified user::
 Unlink bucket from specified user::
 
         $ radosgw-admin bucket unlink --bucket=foo --uid=johnny
-
-Rename a bucket::
-
-        $ radosgw-admin bucket link --bucket=foo --bucket-new-name=bar --uid=johnny
-
-Move a bucket from the old global tenant space to a specified tenant::
-
-        $ radosgw-admin bucket link --bucket=/foo --uid=12345678$12345678'
-
-Link bucket to specified user and change object ACLs::
-
-        $ radosgw-admin bucket chown --bucket=/foo --uid=12345678$12345678'
 
 Show the logs of a bucket from April 1st, 2012::
 

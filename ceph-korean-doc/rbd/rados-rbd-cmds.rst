@@ -1,6 +1,6 @@
-=============================
- Basic Block Device Commands
-=============================
+=======================
+ Block Device Commands
+=======================
 
 .. index:: Ceph Block Device; image management
 

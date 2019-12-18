@@ -3,7 +3,8 @@
 ============================
 
 Messenger is the Ceph network layer implementation. Currently Ceph supports
-one messenger type: "async".
+three messenger type "simple", "async" and "xio". The latter two are both
+experiment features and shouldn't use them in production environment.
 
 ceph_perf_msgr
 ==============

@@ -409,27 +409,6 @@ This warning can be disabled with::
 
   ceph config set global bluestore_warn_on_legacy_statfs false
 
-BLUESTORE_NO_PER_POOL_OMAP
-__________________________
-
-Starting with the Octopus release, BlueStore tracks omap space utilization
-by pool, and one or more OSDs have volumes that were created prior to
-Octopus.  If all OSDs are not running BlueStore with the new tracking
-enabled, the cluster will report and approximate value for per-pool omap usage
-based on the most recent deep-scrub.
-
-The old OSDs can be updated to track by pool by stopping each OSD,
-running a repair operation, and the restarting it.  For example, if
-``osd.123`` needed to be updated,::
-
-  systemctl stop ceph-osd@123
-  ceph-bluestore-tool repair --path /var/lib/ceph/osd/ceph-123
-  systemctl start ceph-osd@123
-
-This warning can be disabled with::
-
-  ceph config set global bluestore_warn_on_no_per_pool_omap false
-
 
 BLUESTORE_DISK_SIZE_MISMATCH
 ____________________________
@@ -799,7 +778,7 @@ not contain as much data have too many PGs.  See the discussion of
 *TOO_MANY_PGS* above.
 
 The threshold can be raised to silence the health warning by adjusting
-the ``mon_pg_warn_max_object_skew`` config option on the managers.
+the ``mon_pg_warn_max_object_skew`` config option on the monitors.
 
 
 POOL_APP_NOT_ENABLED

@@ -12,11 +12,6 @@ Synopsis
 | **rbd-fuse** [ -p pool ] [-c conffile] *mountpoint* [ *fuse options* ]
 
 
-Note
-====
-
-**rbd-fuse** is not recommended for any production or high performance workloads.
-
 Description
 ===========
 
