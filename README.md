@@ -12,6 +12,8 @@ Ceph Documentation 을 기존 레이아웃 그대로 사용하면서 번역하�
 ceph/doc 디렉토리를 ceph-korean-doc 디렉토리로 대체하여 ceph 레포지토리에 가이드 하는 데로 빌드합니다. 다음 레포지토리 ([drunkard/ceph-Chinese-doc](https://github.com/drunkard/ceph-Chinese-doc)) 에서 영감을 받아 제작하였습니다.
 
 ## 번역 가이드
+> `ceph-korean-directory/` 가 주 한글 문서 경로입니다.
+
 Ceph Korean Documentation 은 가능한 일관된 번역 품질을 유지하고자 노력하고 있습니다. Ceph 의 고유 단어 및 일부 기술 용어들은 더 나은 이해를 위해 되도록 원문을 사용합니다. 
 
 원문에 대한 번역은 아래를 참고해 주세요.
@@ -29,29 +31,34 @@ Results:
 
 만약 `make querytrans` 를 통해 쿼리했을 때 단어가 조회되지 않으면, `./trans/*.csv` 파일을 수정하여 단어를 추가해 주세요.
 
-## 문서 빌드 & 번역하기 
+## 문서 빌드 및 로컬 서빙
 기본적으로 Ceph 레포지토리의 [공식 가이드](https://github.com/ceph/ceph#building-the-documentation) 를 따릅니다. 
 
-1. 프로젝트를 포크합니다.
-
-2. 포크한 프로젝트를 클론받고, Submodule Ceph 을 업데이트 합니다.
+프로젝트를 클론받고, 아래와 같이 submodule update 를 실행합니다. 
 ```bash
-git clone https://github.com/{user}/ceph-korean-doc.git
+git clone https://github.com/ceph-korea/ceph-korean-doc.git
 cd ceph-korean-doc
 git submodule update --init
 ```
 
-3. 디펜던시를 설치합니다.
+### Docker
+1. 문서 빌드
+```
+make build_docker
+```
+
+2. 로컬 서빙 및 확인
+```
+make serve_docker
+```
+
+### Ubuntu
+1. 디펜던시 설치
 ```bash
 sudo apt-get install `cat ceph/doc_deps.dep.txt`
 ```
-> Ubuntu 환경의 경우, `doc_deps.deb.txt` 파일로 디펜던시를 설치하여 빌드할 수 있지만, 다른 환경의 경우에는 테스트해보지 못했습니다. 혹시 성공하였다면 언제든지 PR 보내주세요~
 
-4. 문서를 번역합니다.
-
-> `ceph-korean-directory/` 가 주 프로젝트 경로입니다.
-
-5. 문서를 빌드합니다.
+2. 문서 빌드
 ```
 $ make build
 Top Level States:  ['RecoveryMachine']
@@ -61,14 +68,14 @@ Building wheels for collected packages: rados
 ...
 ```
 
-6. `make serve` 를 실행하여 `localhost:8080` 에서 확인합니다.
+3. 로컬 서빙 및 확인
 ```
 $ make serve
 Serving doc at port: http://localhost:8080
 ```
 
-## PR 올리기
-하나의 문서를 모두 번역 완료하였다면, 꼭 `completed` 파일에 `ceph-korean-doc` 의 상대경로로 문서의 경로를 작성해 주세요. (추후 diff 추적을 위함입니다.)
+## PR 가이드
+하나의 문서를 모두 번역 완료하였다면, 꼭 `./completed` 파일에 `ceph-korean-doc` 의 상대경로로 문서의 경로를 작성해 주세요. (추후 diff 추적을 위함입니다.)
 
 ## Diff 체크
 upstream 에 계속해서 업데이트가 일어나 이미 번역된 문서가 변경되었을 때, diff 체크를 수행하여 해당 부분의 번역을 따라갑니다.
