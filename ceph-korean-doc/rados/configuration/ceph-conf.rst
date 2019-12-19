@@ -12,7 +12,7 @@ three types of daemons:
 - :term:`Ceph Manager` (``ceph-mgr``)
 - :term:`Ceph OSD Daemon` (``ceph-osd``)
 
-Ceph Storage Clusters that support the :term:`Ceph Filesystem` run at
+Ceph Storage Clusters that support the :term:`Ceph 파일시스템` run at
 least one :term:`Ceph Metadata Server` (``ceph-mds``). Clusters that
 support :term:`Ceph 오브젝트 스토리지` run Ceph Gateway daemons
 (``radosgw``).

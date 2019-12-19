@@ -4,7 +4,7 @@
 
 Whether you want to provide :term:`Ceph 오브젝트 스토리지` and/or
 :term:`Ceph 블록 디바이스` services to :term:`Cloud Platforms`, deploy
-a :term:`Ceph Filesystem` or use Ceph for another purpose, all
+a :term:`Ceph 파일시스템` or use Ceph for another purpose, all
 :term:`Ceph 스토리지 클러스터` deployments begin with setting up each
 :term:`Ceph 노드`, your network, and the Ceph Storage Cluster. A Ceph
 Storage Cluster requires at least one Ceph Monitor, Ceph Manager, and
@@ -40,7 +40,7 @@ required when running Ceph Filesystem clients.
   and high availability.
 
 - **MDSs**: A :term:`Ceph Metadata Server` (MDS, ``ceph-mds``) stores
-  metadata on behalf of the :term:`Ceph Filesystem` (i.e., Ceph Block
+  metadata on behalf of the :term:`Ceph 파일시스템` (i.e., Ceph Block
   Devices and Ceph Object Storage do not use MDS). Ceph Metadata
   Servers allow POSIX file system users to execute basic commands (like
   ``ls``, ``find``, etc.) without placing an enormous burden on the

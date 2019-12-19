@@ -51,7 +51,7 @@ Storing Data
 
 The Ceph Storage Cluster receives data from :term:`Ceph Clients`--whether it
 comes through a :term:`Ceph 블록 디바이스`, :term:`Ceph 오브젝트 스토리지`, the
-:term:`Ceph Filesystem` or a custom implementation you create using
+:term:`Ceph 파일시스템` or a custom implementation you create using
 ``librados``--and it stores the data as objects. Each object corresponds to a
 file in a filesystem, which is stored on an :term:`Object Storage Device`. Ceph
 OSD Daemons handle the read/write operations on the storage disks.
@@ -1434,7 +1434,7 @@ Ceph Clients include a number of service interfaces. These include:
   provides RESTful APIs with interfaces that are compatible with Amazon S3
   and OpenStack Swift. 
   
-- **Filesystem**: The :term:`Ceph Filesystem` (CephFS) service provides 
+- **Filesystem**: The :term:`Ceph 파일시스템` (CephFS) service provides 
   a POSIX compliant filesystem usable with ``mount`` or as 
   a filesystem in user space (FUSE).
 

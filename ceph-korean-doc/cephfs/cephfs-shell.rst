@@ -3,7 +3,7 @@
 CephFS Shell
 =============
 
-The File System (FS) shell includes various shell-like commands that directly interact with the :term:`Ceph Filesystem`.
+The File System (FS) shell includes various shell-like commands that directly interact with the :term:`Ceph 파일시스템`.
 
 Usage :
 

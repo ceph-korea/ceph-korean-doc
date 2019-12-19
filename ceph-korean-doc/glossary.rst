@@ -61,7 +61,7 @@ reflect either technical terms or legacy ways of referring to Ceph systems.
 		QEMU 또는 Xen 와 같은 하이퍼바이저, 및 ``libvirt`` 와 같은 하이퍼바이저 추상화
 		계층과 함께 사용되는 블록 스토리지 "제품", 서비스 또는 기능
 
-	Ceph Filesystem
+	Ceph 파일시스템
 	CephFS
 	Ceph FS
 		The POSIX filesystem components of Ceph. Refer

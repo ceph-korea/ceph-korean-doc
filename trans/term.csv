@@ -21,3 +21,4 @@ RGW,RGW
 Ceph Block Device,Ceph 블록 디바이스
 RBD,RBD
 Ceph Block Stroage,Ceph 블록 스토리지
+Ceph Filesystem,Ceph 파일시스템
